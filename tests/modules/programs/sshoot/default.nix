@@ -1,0 +1,3 @@
+{
+  sshoot-sessions = ./sessions.nix;
+}

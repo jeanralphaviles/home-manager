@@ -1,0 +1,18 @@
+%YAML 1.1
+---
+home:
+  exclude-subnets:
+  - 192.168.1.100/32
+  extra-opts:
+  - --verbose
+  remote: user@home.example.com
+  seed-hosts:
+  - host1.example.com
+  subnets:
+  - 192.168.1.0/24
+  - 192.168.2.0/24
+work:
+  auto-hosts: true
+  remote: user@work.example.com
+  subnets:
+  - 10.0.0.0/24
